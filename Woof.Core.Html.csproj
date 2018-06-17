@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Woof</RootNamespace>
+    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Company>CodeDog Ltd.</Company>
+    <Description>Some experimental HTML templates for CodeDog web site.</Description>
+    <Copyright>(c)2018 by CodeDog Ltd.</Copyright>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HTD/Woof.Core.Html</PackageProjectUrl>
+    <PackageTags>woof codedog html templates experimental</PackageTags>
+    <PackageReleaseNotes>Experimental release, contains a lot of bugs, use on your own risk.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Woof.Core" Version="1.0.4" />
+  </ItemGroup>
+</Project>
